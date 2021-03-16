@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BindhuTest">
+              <span class="suite-name border-failed">BindhuTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BindhuTest">
+                    <span>C:\Users\Bindhu Prasad\eclipse-workspace\Auto1_Assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BindhuTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BindhuTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BindhuTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BindhuTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BindhuTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BindhuTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BindhuTest" class="hide-methods failed suite-BindhuTest"> (hide)</a> <!-- hide-methods failed suite-BindhuTest -->
+                      <a href="#" panel-name="suite-BindhuTest" class="show-methods failed suite-BindhuTest"> (show)</a> <!-- show-methods failed suite-BindhuTest -->
+                    </span>
+                    <div class="method-list-content failed suite-BindhuTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_005">TestCase_005</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_007">TestCase_007</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BindhuTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BindhuTest" class="hide-methods passed suite-BindhuTest"> (hide)</a> <!-- hide-methods passed suite-BindhuTest -->
+                      <a href="#" panel-name="suite-BindhuTest" class="show-methods passed suite-BindhuTest"> (show)</a> <!-- show-methods passed suite-BindhuTest -->
+                    </span>
+                    <div class="method-list-content passed suite-BindhuTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.autohero.test.SearchTest" hash-for-method="TestCase_001">TestCase_001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_001">TestCase_001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_002">TestCase_002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.autohero.test.SearchTest" hash-for-method="TestCase_002">TestCase_002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_003">TestCase_003</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_004">TestCase_004</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_006">TestCase_006</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_008(bmadhavi0242@gmail.com, Welcome@1)">TestCase_008(bmadhavi0242@gmail.com, Welcome@1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BindhuTest" title="com.auto1.test.AddressValidation" hash-for-method="TestCase_008(vrp.bindhu@gmail.com, Welcome@1)">TestCase_008(vrp.bindhu@gmail.com, Welcome@1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BindhuTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BindhuTest" class="panel BindhuTest">
+          <div class="suite-BindhuTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.auto1.test.AddressValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_005">
+                  </a> <!-- TestCase_005 -->
+                  <span class="method-name">TestCase_005</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [true] but found [false]
+	at com.project.auto1.pages.MyAddessPage.assertAddresslist(MyAddessPage.java:129)
+	at com.auto1.test.AddressValidation.TestCase_005(AddressValidation.java:83)
+... Removed 28 stack frames<br/> java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.project.auto1.pages.MyAddessPage.assertAddresslist(MyAddessPage.java:129)
+	at com.auto1.test.AddressValidation.TestCase_005(AddressValidation.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertTrue(Assert.java:42)<br>org.testng.Assert.assertTrue(Assert.java:52)<br>com.project.auto1.pages.MyAddessPage.assertAddresslist(MyAddessPage.java:129)<br>com.auto1.test.AddressValidation.TestCase_005(AddressValidation.java:83)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                  <em>
+(To verify user can able see 20 addresses per page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_007">
+                  </a> <!-- TestCase_007 -->
+                  <span class="method-name">TestCase_007</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [false] but found [true]
+	at com.project.auto1.pages.MyAddessPage.assertAddressNotAdded(MyAddessPage.java:68)
+	at com.auto1.test.AddressValidation.TestCase_007(AddressValidation.java:112)
+... Removed 28 stack frames<br/> java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.project.auto1.pages.MyAddessPage.assertAddressNotAdded(MyAddessPage.java:68)
+	at com.auto1.test.AddressValidation.TestCase_007(AddressValidation.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertFalse(Assert.java:63)<br>org.testng.Assert.assertFalse(Assert.java:73)<br>com.project.auto1.pages.MyAddessPage.assertAddressNotAdded(MyAddessPage.java:68)<br>com.auto1.test.AddressValidation.TestCase_007(AddressValidation.java:112)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                  <em>
+(To Verify the system behaviour when merchants try to add the address with invalid Phone number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BindhuTest-class-failed -->
+          <div class="suite-BindhuTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.auto1.test.AddressValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_001">
+                  </a> <!-- TestCase_001 -->
+                  <span class="method-name">TestCase_001</span>
+                  <em>
+(To verify user can able to add valid address and display of newly added address)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_002">
+                  </a> <!-- TestCase_002 -->
+                  <span class="method-name">TestCase_002</span>
+                  <em>
+(To verify user can able edit the address)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_003">
+                  </a> <!-- TestCase_003 -->
+                  <span class="method-name">TestCase_003</span>
+                  <em>
+(To verify user can able delete the address added)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_004">
+                  </a> <!-- TestCase_004 -->
+                  <span class="method-name">TestCase_004</span>
+                  <em>
+(To verify user can able add addredd with out street field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_006">
+                  </a> <!-- TestCase_006 -->
+                  <span class="method-name">TestCase_006</span>
+                  <em>
+(To Verify the system behaviour when merchants try to add the address with invalid Postal code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_008(bmadhavi0242@gmail.com, Welcome@1)">
+                  </a> <!-- TestCase_008(bmadhavi0242@gmail.com, Welcome@1) -->
+                  <span class="method-name">TestCase_008</span>
+                  <span class="parameters">(bmadhavi0242@gmail.com, Welcome@1)</span>
+                  <em>
+(To delete the all addresses added in previous testcases)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_008(vrp.bindhu@gmail.com, Welcome@1)">
+                  </a> <!-- TestCase_008(vrp.bindhu@gmail.com, Welcome@1) -->
+                  <span class="method-name">TestCase_008</span>
+                  <span class="parameters">(vrp.bindhu@gmail.com, Welcome@1)</span>
+                  <em>
+(To delete the all addresses added in previous testcases)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BindhuTest-class-passed -->
+          <div class="suite-BindhuTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.autohero.test.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_001">
+                  </a> <!-- TestCase_001 -->
+                  <span class="method-name">TestCase_001</span>
+                  <em>
+(To Verify the search functinality as anonymous user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_002">
+                  </a> <!-- TestCase_002 -->
+                  <span class="method-name">TestCase_002</span>
+                  <em>
+(To Verify the search functinality as Loggedin  user.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BindhuTest-class-passed -->
+        </div> <!-- panel BindhuTest -->
+        <div panel-name="test-xml-BindhuTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bindhu Prasad\eclipse-workspace\Auto1_Assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BindhuTest&quot; parallel=&quot;none&quot;&gt;
+  &lt;test name=&quot;AutoGroupTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.auto1.test.AddressValidation&quot;/&gt;
+      &lt;class name=&quot;com.autohero.test.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutoGroupTest --&gt;
+&lt;/suite&gt; &lt;!-- BindhuTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BindhuTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BindhuTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AutoGroupTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BindhuTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BindhuTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BindhuTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BindhuTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BindhuTest');
+function tableData_BindhuTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestCase_005')
+data.setCell(0, 2, 'com.auto1.test.AddressValidation')
+data.setCell(0, 3, 166419);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestCase_008')
+data.setCell(1, 2, 'com.auto1.test.AddressValidation')
+data.setCell(1, 3, 132084);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestCase_002')
+data.setCell(2, 2, 'com.autohero.test.SearchTest')
+data.setCell(2, 3, 87110);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestCase_001')
+data.setCell(3, 2, 'com.autohero.test.SearchTest')
+data.setCell(3, 3, 85922);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestCase_003')
+data.setCell(4, 2, 'com.auto1.test.AddressValidation')
+data.setCell(4, 3, 51248);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestCase_006')
+data.setCell(5, 2, 'com.auto1.test.AddressValidation')
+data.setCell(5, 3, 36673);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestCase_008')
+data.setCell(6, 2, 'com.auto1.test.AddressValidation')
+data.setCell(6, 3, 32525);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestCase_001')
+data.setCell(7, 2, 'com.auto1.test.AddressValidation')
+data.setCell(7, 3, 24747);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestCase_004')
+data.setCell(8, 2, 'com.auto1.test.AddressValidation')
+data.setCell(8, 3, 16978);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestCase_002')
+data.setCell(9, 2, 'com.auto1.test.AddressValidation')
+data.setCell(9, 3, 11461);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestCase_007')
+data.setCell(10, 2, 'com.auto1.test.AddressValidation')
+data.setCell(10, 3, 8576);
+window.suiteTableData['BindhuTest']= { tableData: data, tableDiv: 'times-div-BindhuTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-BindhuTest">
+              </div> <!-- times-div-BindhuTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BindhuTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BindhuTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_006</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : :To Verify the system behaviour when merchants try to add the address with invalid Postal code</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Auto1" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"AddAddressTest" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"additionaldata" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"517124" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Berlin" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"8.32428468E8" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Description :: Assert the adderss is not added</span>
+                <span class="reporter-method-output">Description :: Clicking on logout button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_008(bmadhavi0242@gmail.com, Welcome@1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : :To delete the all addresses added in previous testcase</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Description :: Clicking on logout button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_008(vrp.bindhu@gmail.com, Welcome@1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : :To delete the all addresses added in previous testcase</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Description :: Clicking on logout button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_002</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : : To verify user can able edit the address</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Description :: clicking on Edit address button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/button[@class="btn btn-primary"]</span>
+                <span class="reporter-method-output">Description :: updating the address</span>
+                <span class="reporter-method-output">Entered value :"Name-updated" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Description :: Assert the adderss updated</span>
+                <span class="reporter-method-output">Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../ul/li[contains(text(),'Name-updated')]</span>
+                <span class="reporter-method-output">Description :: Clicking on logout button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_002</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description: : To Verify the search functinality as Loggedin  user.</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Login to search cars</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="rightItems___1QD6D"]/div/button[@class="button___3tyEI default___1FRAY" and @type = "button"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="itemsList___3fp9v"]/a[ contains(text(),'Registrieren')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@name="email" and @name="email"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@id="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]</span>
+                <span class="reporter-method-output">navigating to search page</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']</span>
+                <span class="reporter-method-output">Option Selected :2015</span>
+                <span class="reporter-method-output">Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]</span>
+                <span class="reporter-method-output">Asserting the cars are filted by year selected</span>
+                <span class="reporter-method-output">Asserting the prices are filtered is correct</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_001</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description: : To Verify the search functinality as anonymous user</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">navigating to search page</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']</span>
+                <span class="reporter-method-output">Option Selected :2015</span>
+                <span class="reporter-method-output">Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]</span>
+                <span class="reporter-method-output">Asserting the cars are filted by year selected</span>
+                <span class="reporter-method-output">Asserting the prices are filtered is correct</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_004</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : :To verify user can able add addredd with out street field</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Auto1" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :" " in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"additionaldata" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"80336" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Berlin" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"8.32428468E8" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Description :: Address with no Street name</span>
+                <span class="reporter-method-output">Expected Element is present :By.xpath: //div[contains(@class,'form-group has-error')]</span>
+                <span class="reporter-method-output">Description :: Clicking on logout button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_003</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : :To verify user can able delete the address added</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Description :: clicking on Delete address button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/a[@class="btn-delete"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</span>
+                <span class="reporter-method-output">Description :: Assert the adderss deleted</span>
+                <span class="reporter-method-output">Description :: Clicking on logout button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_001</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : : To verify user can able to add valid address and display of newly added address</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Auto1" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"additionaldata" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"AddAddressTest" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"80336" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Berlin" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"8.32428468E8" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Description :: Assert the adderss added</span>
+                <span class="reporter-method-output">Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]</span>
+                <span class="reporter-method-output">Description :: Clicking on logout button</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</span>
+                <span class="reporter-method-output">status : Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_005</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : :To verify user can able see 20 addresses per page</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Rania" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Drees-Thöne" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Kocherstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 947" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"48708" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Michelleheim" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-176-0167658" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Luis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Kleinmann, Bultmann und Heist" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Siemensstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 399" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"16950" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Klein Frieda" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-161-5706011" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Nino" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Schirmer-Wühn" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Bonifatiusstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 951" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"73605" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Bad Valentinogrün" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1570-4538240" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Lewis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Erhardt-Langhirt" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Auf der Weide" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"7 OG" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"81830" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Isabelstadt" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1563-4200204" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Shawn" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Gottschalk-Meier" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Bohnenkampsweg" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 859" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"46235" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Trefffeld" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-168-3924598" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Aaliyah" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Schulze-Biedermann" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Oswald-Spengler-Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 456" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"09042" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Groß Lenja" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-162-4927854" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Raik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Stepanov, Benzing und Volkmann" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Semmelweisstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"6 OG" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"62240" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Goebelscheid" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-165-6944952" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Isak UG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Am Birkenberg" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 232" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"97936" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Aylinheim" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-160-0164359" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Tamia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Beushausen, Stöckert und Dutkiewicz" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Opladener Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 431" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"91965" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Ost Arda" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-179-1461642" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Kai" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Hudak Gruppe" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Günther-Weisenborn-Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"7 OG" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"64027" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Diezelbrunn" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-162-5741454" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Ariana" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Krieger AG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Uhlandstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"7 OG" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"11337" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Süd Joris" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1571-0343989" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Joelle" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Rodehau AG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Dahlemer Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 747" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"82501" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Schmitzdorf" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-168-2645078" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Ludolf Gruppe" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Am Graben" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"3 OG" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"56521" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Jannesbrunn" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-165-2800714" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Rieke" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Lauinger Gruppe" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Marie-Curie-Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 664" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"61746" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Oskarstadt" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1520-1896827" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Pepe" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Burghagen-Amberg" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Rudolf-Stracke-Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 747" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"69710" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Evertsscheid" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-173-5398080" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Olivia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Büker GmbH & Co. KG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Feuerbachstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 388" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"30337" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Ost Elsa" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-167-6710543" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Mette" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Haaf, Jonas und Fassbender" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Am Knechtsgraben" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 257" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"76924" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Levinheim" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-176-4994810" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Lillian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Schüppel, Hasse und Mrugalla" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Görresstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 098" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"43403" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Gruberberg" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1598-3299451" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Malia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Holzdeppe-Brandis" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Peenestr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"1 OG" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"83840" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Neu Hannes" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-165-8898744" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Vivian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Schimmer, Muller und Huebel" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Max-Horkheimer-Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 349" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"50391" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Jaydenheim" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1532-7746329" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Knoll, Heiser und Schersing" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Kochergarten" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 683" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"08165" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Storlburg" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1524-4868534" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Erik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Pusch GmbH & Co. KG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Nordstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 287" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"91692" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Mannsdorf" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-176-0080689" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Jannek" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Kruschinski, Bouschen und Lenk" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Loheweg" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 200" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"29815" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Mayaberg" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-174-8775725" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Ochs, Hannecker und Ranftl" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Willi-Baumeister-Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 396" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"48925" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Hulsscheid" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-175-0073615" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Norman" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Fust-Arndt" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Grunewaldstr." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 944" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"26610" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Abichtstadt" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-167-3101983" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Carina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Kluwe-Lutz" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Kuhlmannweg" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 352" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"47822" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Schön Liahstadt" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-1581-4522729" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Isabella" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Philipp UG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Mauspfad" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"3 OG" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"18563" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Alt Marisa" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-168-2970500" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Carolina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Kirch-Cronjäger" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Dohrgasse" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Zimmer 985" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"33205" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Trautmannfeld" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-172-5126438" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Eddy" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Mauroff AG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Auerweg" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 668" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"24451" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Nord Rickberg" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-176-4515206" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Klara" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Schötz KG" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"Bernhard-Letterhaus-Str." in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"Apt. 731" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"49109" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Bad Gustavbrunn" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"+49-164-2868029" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">In this page  24 addresses are  displaying but expected is 20 per page </span>
+                <span class="reporter-method-output">status : Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_007</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">description : :To Verify the system behaviour when merchants try to add the address with invalid Phone number</span>
+                <span class="reporter-method-output">============================================launching Url============================================</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</span>
+                <span class="reporter-method-output">Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</span>
+                <span class="reporter-method-output">Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</span>
+                <span class="reporter-method-output">Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</span>
+                <span class="reporter-method-output">Entered value :"Auto1" in the element : By.name: company</span>
+                <span class="reporter-method-output">Entered value :"InvalidMobileNumber" in the element : By.name: street</span>
+                <span class="reporter-method-output">Entered value :"additionaldata" in the element : By.name: address2</span>
+                <span class="reporter-method-output">Entered value :"80336" in the element : By.name: zipcode</span>
+                <span class="reporter-method-output">Entered value :"Berlin" in the element : By.name: city</span>
+                <span class="reporter-method-output">Option Selected :Germany</span>
+                <span class="reporter-method-output">Entered value :"uiadlbkbc$%&/(5678" in the element : By.name: phone</span>
+                <span class="reporter-method-output">Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</span>
+                <span class="reporter-method-output">Description :: Assert the adderss is not added</span>
+                <span class="reporter-method-output">Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'InvalidMobileNumber')]</span>
+                <span class="reporter-method-output">status : Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BindhuTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.autohero.test.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BindhuTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto1.test.AddressValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">TestCase_001</span>
+                <span class="method-start">1285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_002</span>
+                <span class="method-start">26037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_003</span>
+                <span class="method-start">37500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_004</span>
+                <span class="method-start">88750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase_005</span>
+                <span class="method-start">105733 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_006</span>
+                <span class="method-start">272157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase_007</span>
+                <span class="method-start">308831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_008(bmadhavi0242@gmail.com, Welcome@1)</span>
+                <span class="method-start">317413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_008(vrp.bindhu@gmail.com, Welcome@1)</span>
+                <span class="method-start">449499 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autohero.test.SearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestCase_001</span>
+                <span class="method-start">482025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_002</span>
+                <span class="method-start">567948 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.auto1.test.AddressValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">655060 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

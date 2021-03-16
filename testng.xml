@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BindhuTest">
+  <test name="AutoGroupTest">
+		<classes>
+			<class name="com.auto1.test.AddressValidation"/>
+			<class name="com.autohero.test.SearchTest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

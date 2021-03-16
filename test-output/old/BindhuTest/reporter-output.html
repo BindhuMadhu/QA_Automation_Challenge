@@ -1,0 +1,569 @@
+<h2>Reporter output</h2><table><tr><td>started test : TestCase_001</td></tr>
+<tr><td>description : : To verify user can able to add valid address and display of newly added address</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Auto1" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"additionaldata" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"AddAddressTest" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"80336" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Berlin" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"8.32428468E8" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Description :: Assert the adderss added</td></tr>
+<tr><td>Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]</td></tr>
+<tr><td>Description :: Clicking on logout button</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_002</td></tr>
+<tr><td>description : : To verify user can able edit the address</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Description :: clicking on Edit address button</td></tr>
+<tr><td>Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/button[@class="btn btn-primary"]</td></tr>
+<tr><td>Description :: updating the address</td></tr>
+<tr><td>Entered value :"Name-updated" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Description :: Assert the adderss updated</td></tr>
+<tr><td>Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../ul/li[contains(text(),'Name-updated')]</td></tr>
+<tr><td>Description :: Clicking on logout button</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_003</td></tr>
+<tr><td>description : :To verify user can able delete the address added</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Description :: clicking on Delete address button</td></tr>
+<tr><td>Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/a[@class="btn-delete"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Description :: Assert the adderss deleted</td></tr>
+<tr><td>Description :: Clicking on logout button</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_004</td></tr>
+<tr><td>description : :To verify user can able add addredd with out street field</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Auto1" in the element : By.name: company</td></tr>
+<tr><td>Entered value :" " in the element : By.name: street</td></tr>
+<tr><td>Entered value :"additionaldata" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"80336" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Berlin" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"8.32428468E8" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Description :: Address with no Street name</td></tr>
+<tr><td>Expected Element is present :By.xpath: //div[contains(@class,'form-group has-error')]</td></tr>
+<tr><td>Description :: Clicking on logout button</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_005</td></tr>
+<tr><td>description : :To verify user can able see 20 addresses per page</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Rania" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Drees-Thöne" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Kocherstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 947" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"48708" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Michelleheim" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-176-0167658" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Luis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Kleinmann, Bultmann und Heist" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Siemensstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 399" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"16950" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Klein Frieda" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-161-5706011" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Nino" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Schirmer-Wühn" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Bonifatiusstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 951" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"73605" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Bad Valentinogrün" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1570-4538240" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Lewis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Erhardt-Langhirt" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Auf der Weide" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"7 OG" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"81830" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Isabelstadt" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1563-4200204" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Shawn" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Gottschalk-Meier" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Bohnenkampsweg" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 859" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"46235" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Trefffeld" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-168-3924598" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Aaliyah" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Schulze-Biedermann" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Oswald-Spengler-Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 456" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"09042" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Groß Lenja" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-162-4927854" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Raik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Stepanov, Benzing und Volkmann" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Semmelweisstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"6 OG" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"62240" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Goebelscheid" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-165-6944952" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Isak UG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Am Birkenberg" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 232" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"97936" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Aylinheim" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-160-0164359" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Tamia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Beushausen, Stöckert und Dutkiewicz" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Opladener Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 431" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"91965" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Ost Arda" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-179-1461642" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Kai" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Hudak Gruppe" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Günther-Weisenborn-Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"7 OG" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"64027" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Diezelbrunn" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-162-5741454" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Ariana" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Krieger AG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Uhlandstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"7 OG" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"11337" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Süd Joris" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1571-0343989" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Joelle" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Rodehau AG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Dahlemer Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 747" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"82501" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Schmitzdorf" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-168-2645078" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Ludolf Gruppe" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Am Graben" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"3 OG" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"56521" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Jannesbrunn" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-165-2800714" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Rieke" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Lauinger Gruppe" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Marie-Curie-Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 664" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"61746" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Oskarstadt" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1520-1896827" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Pepe" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Burghagen-Amberg" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Rudolf-Stracke-Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 747" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"69710" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Evertsscheid" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-173-5398080" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Olivia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Büker GmbH & Co. KG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Feuerbachstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 388" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"30337" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Ost Elsa" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-167-6710543" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Mette" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Haaf, Jonas und Fassbender" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Am Knechtsgraben" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 257" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"76924" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Levinheim" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-176-4994810" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Lillian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Schüppel, Hasse und Mrugalla" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Görresstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 098" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"43403" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Gruberberg" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1598-3299451" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Malia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Holzdeppe-Brandis" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Peenestr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"1 OG" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"83840" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Neu Hannes" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-165-8898744" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Vivian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Schimmer, Muller und Huebel" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Max-Horkheimer-Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 349" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"50391" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Jaydenheim" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1532-7746329" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Knoll, Heiser und Schersing" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Kochergarten" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 683" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"08165" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Storlburg" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1524-4868534" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Erik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Pusch GmbH & Co. KG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Nordstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 287" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"91692" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Mannsdorf" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-176-0080689" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Jannek" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Kruschinski, Bouschen und Lenk" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Loheweg" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 200" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"29815" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Mayaberg" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-174-8775725" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Ochs, Hannecker und Ranftl" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Willi-Baumeister-Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 396" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"48925" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Hulsscheid" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-175-0073615" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Norman" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Fust-Arndt" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Grunewaldstr." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 944" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"26610" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Abichtstadt" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-167-3101983" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Carina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Kluwe-Lutz" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Kuhlmannweg" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 352" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"47822" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Schön Liahstadt" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-1581-4522729" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Isabella" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Philipp UG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Mauspfad" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"3 OG" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"18563" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Alt Marisa" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-168-2970500" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Carolina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Kirch-Cronjäger" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Dohrgasse" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Zimmer 985" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"33205" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Trautmannfeld" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-172-5126438" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Eddy" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Mauroff AG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Auerweg" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 668" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"24451" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Nord Rickberg" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-176-4515206" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Klara" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Schötz KG" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"Bernhard-Letterhaus-Str." in the element : By.name: street</td></tr>
+<tr><td>Entered value :"Apt. 731" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"49109" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Bad Gustavbrunn" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"+49-164-2868029" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>In this page  24 addresses are  displaying but expected is 20 per page </td></tr>
+<tr><td>status : Failed</td></tr>
+<tr><td>started test : TestCase_006</td></tr>
+<tr><td>description : :To Verify the system behaviour when merchants try to add the address with invalid Postal code</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Auto1" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"AddAddressTest" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"additionaldata" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"517124" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Berlin" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"8.32428468E8" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Description :: Assert the adderss is not added</td></tr>
+<tr><td>Description :: Clicking on logout button</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_007</td></tr>
+<tr><td>description : :To Verify the system behaviour when merchants try to add the address with invalid Phone number</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]</td></tr>
+<tr><td>Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]</td></tr>
+<tr><td>Entered value :"Auto1" in the element : By.name: company</td></tr>
+<tr><td>Entered value :"InvalidMobileNumber" in the element : By.name: street</td></tr>
+<tr><td>Entered value :"additionaldata" in the element : By.name: address2</td></tr>
+<tr><td>Entered value :"80336" in the element : By.name: zipcode</td></tr>
+<tr><td>Entered value :"Berlin" in the element : By.name: city</td></tr>
+<tr><td>Option Selected :Germany</td></tr>
+<tr><td>Entered value :"uiadlbkbc$%&/(5678" in the element : By.name: phone</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]</td></tr>
+<tr><td>Description :: Assert the adderss is not added</td></tr>
+<tr><td>Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'InvalidMobileNumber')]</td></tr>
+<tr><td>status : Failed</td></tr>
+<tr><td>started test : TestCase_008</td></tr>
+<tr><td>description : :To delete the all addresses added in previous testcase</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Description :: Clicking on logout button</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_008</td></tr>
+<tr><td>description : :To delete the all addresses added in previous testcase</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]</td></tr>
+<tr><td>Clicked on Element having xpath : (//a[@class="btn-delete"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]</td></tr>
+<tr><td>Description :: Clicking on logout button</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_001</td></tr>
+<tr><td>description: : To Verify the search functinality as anonymous user</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>navigating to search page</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']</td></tr>
+<tr><td>Option Selected :2015</td></tr>
+<tr><td>Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]</td></tr>
+<tr><td>Asserting the cars are filted by year selected</td></tr>
+<tr><td>Asserting the prices are filtered is correct</td></tr>
+<tr><td>status : Passed</td></tr>
+<tr><td>started test : TestCase_002</td></tr>
+<tr><td>description: : To Verify the search functinality as Loggedin  user.</td></tr>
+<tr><td>============================================launching Url============================================</td></tr>
+<tr><td>Login to search cars</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="rightItems___1QD6D"]/div/button[@class="button___3tyEI default___1FRAY" and @type = "button"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //div[@class="itemsList___3fp9v"]/a[ contains(text(),'Registrieren')]</td></tr>
+<tr><td>Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@name="email" and @name="email"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]</td></tr>
+<tr><td>Entered value :"Welcome@1" in the element : By.xpath: //input[@id="password"]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]</td></tr>
+<tr><td>navigating to search page</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]</td></tr>
+<tr><td>Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']</td></tr>
+<tr><td>Option Selected :2015</td></tr>
+<tr><td>Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]</td></tr>
+<tr><td>Asserting the cars are filted by year selected</td></tr>
+<tr><td>Asserting the prices are filtered is correct</td></tr>
+<tr><td>status : Passed</td></tr>
+</table>

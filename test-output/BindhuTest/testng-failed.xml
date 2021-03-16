@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BindhuTest]" parallel="none">
+  <test name="AutoGroupTest(failed)" parallel="none">
+    <classes>
+      <class name="com.auto1.test.AddressValidation">
+        <methods>
+          <include name="TestCase_005"/>
+          <include name="setup"/>
+          <include name="TestCase_007"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.auto1.test.AddressValidation -->
+    </classes>
+  </test> <!-- AutoGroupTest(failed) -->
+</suite> <!-- Failed suite [BindhuTest] -->

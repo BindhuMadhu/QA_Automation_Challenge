@@ -1,0 +1,3544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="11" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[started test : TestCase_001]]>
+    </line>
+    <line>
+      <![CDATA[description : : To verify user can able to add valid address and display of newly added address]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"additionaldata" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"AddAddressTest" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"80336" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"8.32428468E8" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Assert the adderss added]]>
+    </line>
+    <line>
+      <![CDATA[Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Clicking on logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_002]]>
+    </line>
+    <line>
+      <![CDATA[description : : To verify user can able edit the address]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: clicking on Edit address button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/button[@class="btn btn-primary"]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: updating the address]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Name-updated" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Assert the adderss updated]]>
+    </line>
+    <line>
+      <![CDATA[Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../ul/li[contains(text(),'Name-updated')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Clicking on logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_003]]>
+    </line>
+    <line>
+      <![CDATA[description : :To verify user can able delete the address added]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: clicking on Delete address button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/a[@class="btn-delete"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Assert the adderss deleted]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Clicking on logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_004]]>
+    </line>
+    <line>
+      <![CDATA[description : :To verify user can able add addredd with out street field]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :" " in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"additionaldata" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"80336" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"8.32428468E8" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Address with no Street name]]>
+    </line>
+    <line>
+      <![CDATA[Expected Element is present :By.xpath: //div[contains(@class,'form-group has-error')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Clicking on logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_005]]>
+    </line>
+    <line>
+      <![CDATA[description : :To verify user can able see 20 addresses per page]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Rania" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Drees-Thöne" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kocherstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 947" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"48708" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Michelleheim" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-176-0167658" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Luis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kleinmann, Bultmann und Heist" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Siemensstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 399" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"16950" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Klein Frieda" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-161-5706011" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Nino" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Schirmer-Wühn" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Bonifatiusstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 951" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"73605" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Bad Valentinogrün" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1570-4538240" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Lewis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Erhardt-Langhirt" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Auf der Weide" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"7 OG" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"81830" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Isabelstadt" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1563-4200204" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Shawn" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Gottschalk-Meier" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Bohnenkampsweg" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 859" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"46235" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Trefffeld" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-168-3924598" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Aaliyah" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Schulze-Biedermann" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Oswald-Spengler-Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 456" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"09042" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Groß Lenja" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-162-4927854" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Raik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Stepanov, Benzing und Volkmann" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Semmelweisstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"6 OG" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"62240" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Goebelscheid" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-165-6944952" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Isak UG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Am Birkenberg" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 232" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"97936" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Aylinheim" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-160-0164359" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Tamia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Beushausen, Stöckert und Dutkiewicz" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Opladener Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 431" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"91965" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Ost Arda" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-179-1461642" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kai" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Hudak Gruppe" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Günther-Weisenborn-Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"7 OG" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"64027" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Diezelbrunn" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-162-5741454" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Ariana" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Krieger AG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Uhlandstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"7 OG" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"11337" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Süd Joris" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1571-0343989" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Joelle" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Rodehau AG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Dahlemer Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 747" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"82501" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Schmitzdorf" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-168-2645078" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Ludolf Gruppe" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Am Graben" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"3 OG" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"56521" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Jannesbrunn" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-165-2800714" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Rieke" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Lauinger Gruppe" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Marie-Curie-Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 664" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"61746" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Oskarstadt" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1520-1896827" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Pepe" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Burghagen-Amberg" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Rudolf-Stracke-Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 747" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"69710" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Evertsscheid" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-173-5398080" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Olivia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Büker GmbH & Co. KG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Feuerbachstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 388" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"30337" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Ost Elsa" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-167-6710543" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Mette" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Haaf, Jonas und Fassbender" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Am Knechtsgraben" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 257" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"76924" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Levinheim" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-176-4994810" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Lillian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Schüppel, Hasse und Mrugalla" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Görresstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 098" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"43403" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Gruberberg" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1598-3299451" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Malia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Holzdeppe-Brandis" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Peenestr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"1 OG" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"83840" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Neu Hannes" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-165-8898744" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Vivian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Schimmer, Muller und Huebel" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Max-Horkheimer-Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 349" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"50391" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Jaydenheim" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1532-7746329" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Knoll, Heiser und Schersing" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kochergarten" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 683" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"08165" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Storlburg" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1524-4868534" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Erik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Pusch GmbH & Co. KG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Nordstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 287" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"91692" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Mannsdorf" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-176-0080689" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Jannek" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kruschinski, Bouschen und Lenk" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Loheweg" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 200" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"29815" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Mayaberg" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-174-8775725" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Ochs, Hannecker und Ranftl" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Willi-Baumeister-Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 396" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"48925" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Hulsscheid" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-175-0073615" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Norman" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Fust-Arndt" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Grunewaldstr." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 944" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"26610" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Abichtstadt" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-167-3101983" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Carina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kluwe-Lutz" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kuhlmannweg" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 352" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"47822" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Schön Liahstadt" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-1581-4522729" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Isabella" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Philipp UG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Mauspfad" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"3 OG" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"18563" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Alt Marisa" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-168-2970500" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Carolina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Kirch-Cronjäger" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Dohrgasse" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Zimmer 985" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"33205" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Trautmannfeld" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-172-5126438" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Eddy" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Mauroff AG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Auerweg" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 668" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"24451" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Nord Rickberg" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-176-4515206" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Klara" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Schötz KG" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Bernhard-Letterhaus-Str." in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Apt. 731" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"49109" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Bad Gustavbrunn" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"+49-164-2868029" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[In this page  24 addresses are  displaying but expected is 20 per page ]]>
+    </line>
+    <line>
+      <![CDATA[status : Failed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_006]]>
+    </line>
+    <line>
+      <![CDATA[description : :To Verify the system behaviour when merchants try to add the address with invalid Postal code]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"AddAddressTest" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"additionaldata" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"517124" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"8.32428468E8" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Assert the adderss is not added]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Clicking on logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_007]]>
+    </line>
+    <line>
+      <![CDATA[description : :To Verify the system behaviour when merchants try to add the address with invalid Phone number]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"InvalidMobileNumber" in the element : By.name: street]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"additionaldata" in the element : By.name: address2]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"80336" in the element : By.name: zipcode]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :Germany]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"uiadlbkbc$%&/(5678" in the element : By.name: phone]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Assert the adderss is not added]]>
+    </line>
+    <line>
+      <![CDATA[Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'InvalidMobileNumber')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Failed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_008]]>
+    </line>
+    <line>
+      <![CDATA[description : :To delete the all addresses added in previous testcase]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Clicking on logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_008]]>
+    </line>
+    <line>
+      <![CDATA[description : :To delete the all addresses added in previous testcase]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+    </line>
+    <line>
+      <![CDATA[Description :: Clicking on logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_001]]>
+    </line>
+    <line>
+      <![CDATA[description: : To Verify the search functinality as anonymous user]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[navigating to search page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :2015]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]]]>
+    </line>
+    <line>
+      <![CDATA[Asserting the cars are filted by year selected]]>
+    </line>
+    <line>
+      <![CDATA[Asserting the prices are filtered is correct]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+    <line>
+      <![CDATA[started test : TestCase_002]]>
+    </line>
+    <line>
+      <![CDATA[description: : To Verify the search functinality as Loggedin  user.]]>
+    </line>
+    <line>
+      <![CDATA[============================================launching Url============================================]]>
+    </line>
+    <line>
+      <![CDATA[Login to search cars]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="rightItems___1QD6D"]/div/button[@class="button___3tyEI default___1FRAY" and @type = "button"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="itemsList___3fp9v"]/a[ contains(text(),'Registrieren')]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@name="email" and @name="email"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]]]>
+    </line>
+    <line>
+      <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]]]>
+    </line>
+    <line>
+      <![CDATA[navigating to search page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :2015]]>
+    </line>
+    <line>
+      <![CDATA[Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]]]>
+    </line>
+    <line>
+      <![CDATA[Asserting the cars are filted by year selected]]>
+    </line>
+    <line>
+      <![CDATA[Asserting the prices are filtered is correct]]>
+    </line>
+    <line>
+      <![CDATA[status : Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="BindhuTest" duration-ms="655903" started-at="2021-03-16T13:29:56Z" finished-at="2021-03-16T13:40:52Z">
+    <groups>
+    </groups>
+    <test name="AutoGroupTest" duration-ms="655903" started-at="2021-03-16T13:29:56Z" finished-at="2021-03-16T13:40:52Z">
+      <class name="com.auto1.test.AddressValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="setup" is-config="true" duration-ms="1279" started-at="2021-03-16T14:29:56Z" finished-at="2021-03-16T14:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestCase_001()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_001" duration-ms="24747" started-at="2021-03-16T14:29:58Z" description="To verify user can able to add valid address and display of newly added address" finished-at="2021-03-16T14:30:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[description : : To verify user can able to add valid address and display of newly added address]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"additionaldata" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"AddAddressTest" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"80336" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"8.32428468E8" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Assert the adderss added]]>
+            </line>
+            <line>
+              <![CDATA[Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_001 -->
+        <test-method status="PASS" signature="TestCase_002()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_002" duration-ms="11461" started-at="2021-03-16T14:30:22Z" description="To verify user can able edit the address" finished-at="2021-03-16T14:30:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[description : : To verify user can able edit the address]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: clicking on Edit address button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/button[@class="btn btn-primary"]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: updating the address]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Name-updated" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Assert the adderss updated]]>
+            </line>
+            <line>
+              <![CDATA[Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../ul/li[contains(text(),'Name-updated')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_002 -->
+        <test-method status="PASS" signature="TestCase_003()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_003" duration-ms="51248" started-at="2021-03-16T14:30:34Z" description="To verify user can able delete the address added" finished-at="2021-03-16T14:31:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[description : :To verify user can able delete the address added]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: clicking on Delete address button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : //div[contains(@class,'existing-address')]/h2[contains(text(),'additionaldata')]/../div/div/a[@class="btn-delete"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Assert the adderss deleted]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_003 -->
+        <test-method status="PASS" signature="TestCase_004()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_004" duration-ms="16978" started-at="2021-03-16T14:31:25Z" description="To verify user can able add addredd with out street field" finished-at="2021-03-16T14:31:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[description : :To verify user can able add addredd with out street field]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :" " in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"additionaldata" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"80336" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"8.32428468E8" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Address with no Street name]]>
+            </line>
+            <line>
+              <![CDATA[Expected Element is present :By.xpath: //div[contains(@class,'form-group has-error')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_004 -->
+        <test-method status="FAIL" signature="TestCase_005()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_005" duration-ms="166419" started-at="2021-03-16T14:31:42Z" description="To verify user can able see 20 addresses per page" finished-at="2021-03-16T14:34:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.project.auto1.pages.MyAddessPage.assertAddresslist(MyAddessPage.java:129)
+	at com.auto1.test.AddressValidation.TestCase_005(AddressValidation.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[description : :To verify user can able see 20 addresses per page]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Rania" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Drees-Thöne" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kocherstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 947" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"48708" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Michelleheim" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-176-0167658" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Luis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kleinmann, Bultmann und Heist" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Siemensstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 399" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"16950" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Klein Frieda" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-161-5706011" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Nino" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Schirmer-Wühn" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Bonifatiusstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 951" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"73605" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Bad Valentinogrün" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1570-4538240" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Lewis" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Erhardt-Langhirt" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Auf der Weide" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"7 OG" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"81830" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Isabelstadt" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1563-4200204" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Shawn" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Gottschalk-Meier" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Bohnenkampsweg" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 859" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"46235" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Trefffeld" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-168-3924598" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Aaliyah" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Schulze-Biedermann" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Oswald-Spengler-Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 456" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"09042" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Groß Lenja" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-162-4927854" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Raik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Stepanov, Benzing und Volkmann" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Semmelweisstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"6 OG" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"62240" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Goebelscheid" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-165-6944952" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Isak UG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Am Birkenberg" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 232" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"97936" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Aylinheim" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-160-0164359" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Tamia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Beushausen, Stöckert und Dutkiewicz" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Opladener Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 431" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"91965" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Ost Arda" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-179-1461642" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kai" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Hudak Gruppe" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Günther-Weisenborn-Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"7 OG" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"64027" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Diezelbrunn" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-162-5741454" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Ariana" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Krieger AG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Uhlandstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"7 OG" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"11337" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Süd Joris" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1571-0343989" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Joelle" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Rodehau AG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Dahlemer Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 747" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"82501" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Schmitzdorf" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-168-2645078" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Silas" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Ludolf Gruppe" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Am Graben" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"3 OG" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"56521" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Jannesbrunn" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-165-2800714" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Rieke" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Lauinger Gruppe" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Marie-Curie-Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 664" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"61746" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Oskarstadt" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1520-1896827" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Pepe" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Burghagen-Amberg" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Rudolf-Stracke-Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 747" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"69710" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Evertsscheid" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-173-5398080" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Olivia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Büker GmbH & Co. KG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Feuerbachstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 388" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"30337" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Ost Elsa" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-167-6710543" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Mette" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Haaf, Jonas und Fassbender" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Am Knechtsgraben" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 257" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"76924" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Levinheim" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-176-4994810" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Lillian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Schüppel, Hasse und Mrugalla" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Görresstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 098" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"43403" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Gruberberg" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1598-3299451" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Malia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Holzdeppe-Brandis" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Peenestr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"1 OG" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"83840" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Neu Hannes" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-165-8898744" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Vivian" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Schimmer, Muller und Huebel" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Max-Horkheimer-Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 349" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"50391" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Jaydenheim" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1532-7746329" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Knoll, Heiser und Schersing" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kochergarten" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 683" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"08165" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Storlburg" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1524-4868534" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Erik" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Pusch GmbH & Co. KG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Nordstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 287" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"91692" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Mannsdorf" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-176-0080689" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Jannek" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kruschinski, Bouschen und Lenk" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Loheweg" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 200" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"29815" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Mayaberg" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-174-8775725" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Pia" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Ochs, Hannecker und Ranftl" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Willi-Baumeister-Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 396" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"48925" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Hulsscheid" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-175-0073615" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Norman" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Fust-Arndt" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Grunewaldstr." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 944" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"26610" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Abichtstadt" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-167-3101983" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Carina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kluwe-Lutz" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kuhlmannweg" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 352" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"47822" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Schön Liahstadt" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-1581-4522729" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Isabella" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Philipp UG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Mauspfad" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"3 OG" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"18563" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Alt Marisa" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-168-2970500" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Carolina" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Kirch-Cronjäger" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Dohrgasse" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Zimmer 985" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"33205" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Trautmannfeld" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-172-5126438" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Eddy" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Mauroff AG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Auerweg" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 668" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"24451" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Nord Rickberg" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-176-4515206" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Klara" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Schötz KG" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Bernhard-Letterhaus-Str." in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Apt. 731" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"49109" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Bad Gustavbrunn" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"+49-164-2868029" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[In this page  24 addresses are  displaying but expected is 20 per page ]]>
+            </line>
+            <line>
+              <![CDATA[status : Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_005 -->
+        <test-method status="PASS" signature="TestCase_006()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_006" duration-ms="36673" started-at="2021-03-16T14:34:29Z" description="To Verify the system behaviour when merchants try to add the address with invalid Postal code" finished-at="2021-03-16T14:35:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[description : :To Verify the system behaviour when merchants try to add the address with invalid Postal code]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"AddAddressTest" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"additionaldata" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"517124" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"8.32428468E8" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Assert the adderss is not added]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_006 -->
+        <test-method status="FAIL" signature="TestCase_007()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_007" duration-ms="8576" started-at="2021-03-16T14:35:05Z" description="To Verify the system behaviour when merchants try to add the address with invalid Phone number" finished-at="2021-03-16T14:35:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.project.auto1.pages.MyAddessPage.assertAddressNotAdded(MyAddessPage.java:68)
+	at com.auto1.test.AddressValidation.TestCase_007(AddressValidation.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[description : :To Verify the system behaviour when merchants try to add the address with invalid Phone number]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class='btn-container']/button[contains(text(),'ADD NEW ADDRESS')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Test1" in the element : By.xpath: //div[@class="form-control input-control"]/input[@name="name"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Auto1" in the element : By.name: company]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"InvalidMobileNumber" in the element : By.name: street]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"additionaldata" in the element : By.name: address2]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"80336" in the element : By.name: zipcode]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Berlin" in the element : By.name: city]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :Germany]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"uiadlbkbc$%&/(5678" in the element : By.name: phone]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class='btn-primary' and contains(text(),'SAVE')]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Assert the adderss is not added]]>
+            </line>
+            <line>
+              <![CDATA[Expected Element is present ://div[contains(@class,'existing-address')]/h2[contains(text(),'InvalidMobileNumber')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_007 -->
+        <test-method status="PASS" signature="TestCase_008(java.lang.String, java.lang.String)[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_008" duration-ms="132084" started-at="2021-03-16T14:35:14Z" description="To delete the all addresses added in previous testcases" data-provider="LoginDetails" finished-at="2021-03-16T14:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bmadhavi0242@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[description : :To delete the all addresses added in previous testcase]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"bmadhavi0242@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_008 -->
+        <test-method status="PASS" signature="TestCase_008(java.lang.String, java.lang.String)[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="TestCase_008" duration-ms="32525" started-at="2021-03-16T14:37:26Z" description="To delete the all addresses added in previous testcases" data-provider="LoginDetails" finished-at="2021-03-16T14:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vrp.bindhu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[description : :To delete the all addresses added in previous testcase]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[contains(@class,'Header_loginButton')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@type = "text" and @name ="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@type = "password" and @name ="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="LoginPopup_buttonWrapper__38JDN"]/button[contains(@class,'Button_button') and contains(text(),'Log in')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-address"]/a[ text()="Address settings"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : (//a[@class="btn-delete"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn-secondary"]]]>
+            </line>
+            <line>
+              <![CDATA[Description :: Clicking on logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//div[@class="Auto1Logo"])[1]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: (//button[contains(@data-qa-id,'user_menu')]/span)[3]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //li[@data-qa-id="user_menu_user-logOut"]/a[contains(text(),'Log out')]]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_008 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.auto1.test.AddressValidation@12b0404f]" name="tearDown" is-config="true" duration-ms="842" started-at="2021-03-16T14:40:51Z" finished-at="2021-03-16T14:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto1.test.AddressValidation -->
+      <class name="com.autohero.test.SearchTest">
+        <test-method status="PASS" signature="TestCase_001()[pri:0, instance:com.autohero.test.SearchTest@4313f5bc]" name="TestCase_001" duration-ms="85922" started-at="2021-03-16T14:37:58Z" description="To Verify the search functinality as anonymous user" finished-at="2021-03-16T14:39:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[description: : To Verify the search functinality as anonymous user]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[navigating to search page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :2015]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]]]>
+            </line>
+            <line>
+              <![CDATA[Asserting the cars are filted by year selected]]>
+            </line>
+            <line>
+              <![CDATA[Asserting the prices are filtered is correct]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_001 -->
+        <test-method status="PASS" signature="TestCase_002()[pri:0, instance:com.autohero.test.SearchTest@4313f5bc]" name="TestCase_002" duration-ms="87110" started-at="2021-03-16T14:39:24Z" description="To Verify the search functinality as Loggedin  user." finished-at="2021-03-16T14:40:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[description: : To Verify the search functinality as Loggedin  user.]]>
+            </line>
+            <line>
+              <![CDATA[============================================launching Url============================================]]>
+            </line>
+            <line>
+              <![CDATA[Login to search cars]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="rightItems___1QD6D"]/div/button[@class="button___3tyEI default___1FRAY" and @type = "button"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //div[@class="itemsList___3fp9v"]/a[ contains(text(),'Registrieren')]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"vrp.bindhu@gmail.com" in the element : By.xpath: //input[@name="email" and @name="email"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]]]>
+            </line>
+            <line>
+              <![CDATA[Entered value :"Welcome@1" in the element : By.xpath: //input[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //button[@class="btn btn-primary" and @type="submit"]]]>
+            </line>
+            <line>
+              <![CDATA[navigating to search page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //a[contains(@class,'linkItem___24trh color-inherit___SyKXO decoration-none___1IENu') and contains(text(),'Auto finden')]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Element having xpath : By.xpath: //span[text()='Erstzulassung']]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :2015]]>
+            </line>
+            <line>
+              <![CDATA[Option Selected :[[[[ChromeDriver: chrome on WINDOWS (5d589cf16dfda95649c91bb518f21a6f)] -> xpath: //select[contains(@class,"sortBySelec")]]] -> tag name: option]]]>
+            </line>
+            <line>
+              <![CDATA[Asserting the cars are filted by year selected]]>
+            </line>
+            <line>
+              <![CDATA[Asserting the prices are filtered is correct]]>
+            </line>
+            <line>
+              <![CDATA[status : Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_002 -->
+      </class> <!-- com.autohero.test.SearchTest -->
+    </test> <!-- AutoGroupTest -->
+  </suite> <!-- BindhuTest -->
+</testng-results>
